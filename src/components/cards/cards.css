@@ -115,22 +115,22 @@ body {
   width: 100%;
   height: 200%;
   pointer-events: none;
-  background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0) 0%, rgba(0, 0, 0, 0.009) 11.7%, rgba(0, 0, 0, 0.034) 22.1%, rgba(0, 0, 0, 0.072) 31.2%, rgba(0, 0, 0, 0.123) 39.4%, rgba(0, 0, 0, 0.182) 46.6%, rgba(0, 0, 0, 0.249) 53.1%, rgba(0, 0, 0, 0.32) 58.9%, rgba(0, 0, 0, 0.394) 64.3%, rgba(0, 0, 0, 0.468) 69.3%, rgba(0, 0, 0, 0.54) 74.1%, rgba(0, 0, 0, 0.607) 78.8%, rgba(0, 0, 0, 0.668) 83.6%, rgba(0, 0, 0, 0.721) 88.7%, rgba(0, 0, 0, 0.762) 94.1%, rgba(0, 0, 0, 0.79) 100%);
+  background-image: linear-gradient(to bottom, rgba(108, 99, 255, 0) 0%, rgba(108, 99, 255, 0.009) 11.7%, rgba(108, 99, 255, 0.034) 22.1%, rgba(108, 99, 255, 0.072) 31.2%, rgba(108, 99, 255, 0.123) 39.4%, rgba(108, 99, 255, 0.182) 46.6%, rgba(108, 99, 255, 0.249) 53.1%, rgba(108, 99, 255, 0.32) 58.9%, rgba(108, 99, 255, 0.394) 64.3%, rgba(108, 99, 255, 0.468) 69.3%, rgba(108, 99, 255, 0.54) 74.1%, rgba(108, 99, 255, 0.607) 78.8%, rgba(108, 99, 255, 0.668) 83.6%, rgba(108, 99, 255, 0.721) 88.7%, rgba(108, 99, 255, 0.762) 94.1%, rgba(108, 99, 255, 0.79) 100%);
   transform: translateY(-50%);
   transition: transform calc(var(--d) * 2) var(--e);
 }
 .card:nth-child(1):before {
-  background-image: url(./undraw_my_location_re_r52x.svg);
+  background-image: url(./parking.png);
   background-size: contain;
   background-repeat: no-repeat;
 }
 .card:nth-child(2):before {
-  background-image: url(./navigator.svg);
+  background-image: url(./carpool.jpg);
   background-size: contain;
   background-repeat: no-repeat;
 }
 .card:nth-child(3):before {
-  background-image: url(./undraw_mobile_pay_re_sjb8.svg);
+  background-image: url(./parkingmanagement.jpg);
   background-size: contain;
   background-repeat: no-repeat;
 }
@@ -153,7 +153,8 @@ body {
   font-size: 1.3rem;
   font-weight: bold;
   line-height: 1.2;
-  color: #6C63FF;
+  background-color: rgba(70, 64, 163, 1);
+  padding: 10px;
 }
 
 .copy {
@@ -161,6 +162,7 @@ body {
   font-size: 1.125rem;
   font-style: italic;
   line-height: 1.35;
+  font-weight: 400;
 }
 
 .btn {
@@ -180,7 +182,7 @@ body {
   color: white;
 }
 .btn:focus {
-  outline: 1px dashed yellow;
+  outline: 1px dashed 4640a3;
   outline-offset: 3px;
 }
 
