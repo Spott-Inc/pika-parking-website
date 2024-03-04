@@ -1,7 +1,7 @@
 export function Cards() {
 
   return (
-    <>
+    <div className="box-cards">
       <h1 className="services-title">Services to help parking and commuting to and from universities</h1>
       <main class="page-content">
         <div class="card">
@@ -26,6 +26,6 @@ export function Cards() {
           </div>
         </div>
       </main>
-    </>
+    </div>
   );
 }

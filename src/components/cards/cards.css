@@ -43,7 +43,8 @@ html, body {
   height: 100%;
 }
 
-body {
+.box-cards{
+  margin-top: 6rem;
   display: grid;
   place-items: center;
 }
@@ -182,7 +183,7 @@ body {
   color: white;
 }
 .btn:focus {
-  outline: 1px dashed 4640a3;
+  outline: 1px dashed #4640a3;
   outline-offset: 3px;
 }
 
