@@ -13,13 +13,6 @@ export function Cards() {
         </div>
         <div class="card">
           <div class="content">
-            <h2 class="title">Carpool</h2>
-            <p class="copy">Pika Carpool is developed and designed to engage students and promote the carpooling program at universities.</p>
-            <button class="btn">Learn More</button>
-          </div>
-        </div>
-        <div class="card">
-          <div class="content">
             <h2 class="title">Parking Management</h2>
             <p class="copy">Management tool designed to help universities better manage their parking lots, register vehicles, and parking lot users.</p>
             <button class="btn">Learn More</button>
